@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 
-//C++¿¡¼­´Â ¿¬»êÀÚ¿¡ ´ëÇØ¼­ ¿À¹ö·ÎµùÀ» Á¦°ø
-//ÇÔ¼ö ¿À¹ö·ÎµùÀÌ¶õ °°Àº ÀÏÀ» Ã³¸®ÇÏ´Â ÇÔ¼ö¸¦ ¸Å°³º¯¼öÀÇ Çü½ÄÀ» Á¶±Ý ´Þ¸®ÇÏ¿©, ÇÏ³ªÀÇ ÀÌ¸§À¸·Î ÀÛ¼ºÇÏ°Ô ÇØÁÖ´Â°ÍÀÌ´Ù.
-//operator¿À¹ö·ÎµùÇÒ¿¬»êÀÚ(¸Å°³º¯¼ö¸ñ·Ï)
+//C++ì—ì„œëŠ” ì—°ì‚°ìžì— ëŒ€í•´ì„œ ì˜¤ë²„ë¡œë”©ì„ ì œê³µ
+//í•¨ìˆ˜ ì˜¤ë²„ë¡œë”©ì´ëž€ ê°™ì€ ì¼ì„ ì²˜ë¦¬í•˜ëŠ” í•¨ìˆ˜ë¥¼ ë§¤ê°œë³€ìˆ˜ì˜ í˜•ì‹ì„ ì¡°ê¸ˆ ë‹¬ë¦¬í•˜ì—¬, í•˜ë‚˜ì˜ ì´ë¦„ìœ¼ë¡œ ìž‘ì„±í•˜ê²Œ í•´ì£¼ëŠ”ê²ƒì´ë‹¤.
+//operatorì˜¤ë²„ë¡œë”©í• ì—°ì‚°ìž(ë§¤ê°œë³€ìˆ˜ëª©ë¡)
 
 class Operator {
 private:
@@ -19,7 +19,7 @@ int main() {
 
 	Operator op1 = Operator(10, 20);
 	Operator op2 = Operator(20, 30);
-	Operator op2 = op1 - op2;
+	Operator op3 = op1 - op2;
 	return 0;
 }
 
